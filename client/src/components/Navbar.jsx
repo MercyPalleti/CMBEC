@@ -22,6 +22,7 @@ export default function Navbar() {
             src={logo}
             alt="Church Logo"
             className="h-22 w-auto object-contain"
+            link="/"
           />
         </div>
 
