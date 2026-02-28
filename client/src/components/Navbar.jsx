@@ -22,7 +22,6 @@ export default function Navbar() {
             src={logo}
             alt="Church Logo"
             className="h-22 w-auto object-contain"
-            link="/"
           />
         </div>
 
@@ -77,14 +76,14 @@ export default function Navbar() {
 
           <a
             href="/give"
-            className="block bg-green-600 text-white px-4 py-2 rounded-lg text-center"
+            className="block bg-gray-900 text-white px-4 py-2 rounded-lg text-center"
           >
             Give
           </a>
 
           <a
             href="/live"
-            className="block bg-red-600 text-white px-4 py-2 rounded-lg text-center"
+            className="block bg-yellow-500 text-black px-4 py-2 rounded-lg text-center"
           >
             Watch Live
           </a>
