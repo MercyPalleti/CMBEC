@@ -7,11 +7,11 @@ const About = () => {
       {/* ================= HERO SECTION ================= */}
       <section className="relative h-[70vh]">
         <img
-          src="/church-new.jpg" // replace with your new church image
+          src="/about-bg1.jpeg"
           alt="CMBEC Church"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-black bg-opacity-70 flex flex-col items-center justify-center text-center px-4">
+        <div className="absolute inset-0 bg-black/40 flex flex-col items-center justify-center text-center px-4">
           <h1 className="text-4xl md:text-6xl font-bold text-yellow-400 mb-4">
             Centenary Mennonite Brethren Eden Church
           </h1>
@@ -90,11 +90,11 @@ const About = () => {
                 alt="Construction"
                 className="rounded-lg shadow-lg"
               />
-              <img
+              {/*<img
                 src="/church-new.jpg"
                 alt="New Church"
                 className="rounded-lg shadow-lg col-span-2"
-              />
+              />*/}
             </div>
 
           </div>
